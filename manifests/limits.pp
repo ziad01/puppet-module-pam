@@ -33,3 +33,4 @@ class pam::limits (
     require => Package['pam_package'],
   }
 }
+

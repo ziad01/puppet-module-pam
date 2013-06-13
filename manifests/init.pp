@@ -140,7 +140,7 @@ class pam (
   $system_auth_ac_session_lines  = undef,
 ) {
 
-  include nsswitch
+  #  include nsswitch
   include pam::accesslogin
   include pam::limits
 
